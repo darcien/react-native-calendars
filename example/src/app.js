@@ -5,18 +5,52 @@ registerScreens();
 // eslint-disable-next-line no-console
 console.ignoredYellowBox = ['Remote debugger'];
 
-/*
 import {LocaleConfig} from 'react-native-calendars';
 
-LocaleConfig.locales['fr'] = {
-  monthNames: ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'],
-  monthNamesShort: ['Janv.','Févr.','Mars','Avril','Mai','Juin','Juil.','Août','Sept.','Oct.','Nov.','Déc.'],
-  dayNames: ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'],
-  dayNamesShort: ['Dim.','Lun.','Mar.','Mer.','Jeu.','Ven.','Sam.']
+LocaleConfig.locales['en'] = {
+  monthNames: [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ],
+  monthNamesShort: [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ],
+  dayNames: [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ],
+  dayNamesShort: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+  amDesignator: 'AM',
+  pmDesignator: 'PM',
 };
 
-LocaleConfig.defaultLocale = 'fr';
-*/
+LocaleConfig.defaultLocale = 'en';
 
 Navigation.startSingleScreenApp({
   screen: {
@@ -28,6 +62,6 @@ Navigation.startSingleScreenApp({
     navBarTextColor: 'white',
     navBarButtonColor: '#ffffff',
     statusBarTextColorScheme: 'light',
-    autoAdjustScrollViewInsets: true
-  }
+    autoAdjustScrollViewInsets: true,
+  },
 });
