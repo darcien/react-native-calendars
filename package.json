@@ -20,7 +20,7 @@
     "lodash.get": "^4.4.2",
     "lodash.isequal": "^4.5.0",
     "prop-types": "^15.5.10",
-    "xdate": "^0.8.0"
+    "xdate": "https://github.com/darcien/xdate.git"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
