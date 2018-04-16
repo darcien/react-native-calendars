@@ -10,7 +10,7 @@ export const failedColor = 'rgba(246, 126, 126,1)';
 
 export const textDefaultColor = '#2d4150';
 export const textColor = '#43515c';
-export const textLinkColor = '#00adf5';
+export const textLinkColor = '#7aba4c';
 export const textSecondaryColor = '#7a92a5';
 
 export const textDayFontFamily = 'System';
